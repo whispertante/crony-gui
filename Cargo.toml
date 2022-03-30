@@ -12,7 +12,10 @@ rhai = "1.5"
 heck = "0.4"
 log = "0.4"
 dynasmrt = "1.2"
-detour = "0.8"
+
+[dependencies.detour]
+version = "0.8"
+default-features = false
 
 [dependencies.pelite]
 version = "0.9"
